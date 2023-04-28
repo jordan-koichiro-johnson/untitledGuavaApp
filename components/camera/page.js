@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Camera } from 'expo-camera';
 import { shareAsync } from 'expo-sharing';
 import * as MediaLibrary from 'expo-media-library';
+import { BottomNavigation } from '@ui-kitten/components';
 
 export default function TakePicture() {
   let cameraRef = useRef();
@@ -82,6 +83,6 @@ const styles = StyleSheet.create({
   },
   preview: {
     alignSelf: 'stretch',
-    flex: 1
+    flex: 1,
   }
 });

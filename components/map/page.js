@@ -5,7 +5,6 @@ function Map() {
         <Center>
             <Container>
                 <Heading>
-                    Map
                     <Text color="emerald.500"> MAP</Text>
                 </Heading>
                 <Text mt="3" fontWeight="medium">
